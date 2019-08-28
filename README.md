@@ -1,6 +1,16 @@
 stats.js
 ========
 
+## Fork Note
+
+The original repo cannot be used with rollup, this fork changes the file in build folder, and should be able to be used with rollup.
+
+package.json:
+
+```
+"stats-js": "git+https://git@github.com/ssine/stats.js.git"
+```
+
 #### JavaScript Performance Monitor ####
 
 This class provides a simple info box that will help you monitor your code performance.
